@@ -2,8 +2,7 @@
 
 from groq import Groq
 
-client = Groq(api_key="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")
-
+client = Groq(api_key="YOUR_KEY_HERE")
 chat_completion = client.chat.completions.create(
     messages=[
         {

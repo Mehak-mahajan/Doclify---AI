@@ -35,8 +35,7 @@ print(f"FAISS ready with {index.ntotal} vectors!")
 
 # ---- STEP 5: Setup Groq ----
 
-groq_client = Groq(api_key="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")
-# ---groq_client = Groq(api_key="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")
+groq_client = Groq(api_key="YOUR_KEY_HERE")
 
 # ---- STEP 6: The magic function ----
 def ask_question(question):
