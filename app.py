@@ -11,12 +11,12 @@ load_dotenv()
 
 # ---- PAGE SETUP ----
 st.set_page_config(
-    page_title="Study Buddy",
+    page_title="Doclify ---AI",
     page_icon="📚",
     layout="centered"
 )
 
-st.title("📚 Study Buddy")
+st.title("📚 Doclify ---AI")
 st.subheader("Upload your notes and chat with them!")
 
 # ---- LOAD MODELS ----
